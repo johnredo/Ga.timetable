@@ -1,0 +1,50 @@
+table{
+  width: 100%;
+  padding:5px;
+}
+
+.time_container{
+  float:left;
+  width:50%;
+}
+#time_container{
+  float:left;
+  width:50%;
+}
+
+.time{
+  background-color: #336633;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    width:14%;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color: #fff;
+}
+table th {
+    background-color: #006633;
+    color: white;
+}
+
+.classes_shower{
+  text-transform: uppercase;
+}
+
+.chartContainer{
+  max-width: 700px;
+  max-height: 500px;
+}
+
+#lineChart{
+  
+}

@@ -1,0 +1,102 @@
+<HTML>
+  <head>
+    <script src="libraries/p5.js"></script>
+    <!-- uncomment lines below to include extra p5 libraries -->
+    <script src="libraries/p5.dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="DNA.js"></script>
+    <script src="mutation.js"></script>
+    <script src="population.js"></script>
+    <link rel="stylesheet" href="timetable_style.css">
+  </head>
+  <body>
+    <div class="time_container">
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+        <tr>
+          <th class="time">6-8</th>
+          <td id="11"></td>
+          <td id="12"></td>
+          <td id="13"></td>
+          <td id="14"></td>
+          <td id="15"></td>
+          <td id="16"></td>
+        </tr>
+        <tr>
+          <th class="time">8-10</th>
+          <td id="21"></td>
+          <td id="22"></td>
+          <td id="23"></td>
+          <td id="24"></td>
+          <td id="25"></td>
+          <td id="26"></td>
+        </tr>
+        <tr>
+          <th class="time">10-12</th>
+          <td id="31"></td>
+          <td id="32"></td>
+          <td id="33"></td>
+          <td id="34"></td>
+          <td id="35"></td>
+          <td id="36"></td>
+        </tr>
+        <tr>
+          <th class="time">12-2</th>
+          <td id="41"></td>
+          <td id="42"></td>
+          <td id="43"></td>
+          <td id="44"></td>
+          <td id="45"></td>
+          <td id="46"></td>
+        </tr>
+        <tr>
+          <th class="time">2-4</th>
+          <td id="51"></td>
+          <td id="52"></td>
+          <td id="53"></td>
+          <td id="54"></td>
+          <td id="55"></td>
+          <td id="56"></td>
+        </tr>
+        <tr>
+          <th class="time">4-6</th>
+          <td id="61"></td>
+          <td id="62"></td>
+          <td id="63"></td>
+          <td id="64"></td>
+          <td id="65"></td>
+          <td id="66"></td>
+        </tr>
+        <tr>
+          <th class="time">6-8</th>
+          <td id="71"></td>
+          <td id="72"></td>
+          <td id="73"></td>
+          <td id="74"></td>
+          <td id="75"></td>
+          <td id="76"></td>
+        </tr>
+        <tr>
+          <th class="time">8-10</th>
+          <td id="81"></td>
+          <td id="82"></td>
+          <td id="83"></td>
+          <td id="84"></td>
+          <td id="85"></td>
+          <td id="86"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="chartContainer">
+      <canvas id="lineChart" style="width: 700px; height: 500px; position: absolute; left: 1100px; top: 140px; border:1px solid #000000;"" width="700" height="500"></canvas>
+    </div>
+  </body>
+</HTML>
